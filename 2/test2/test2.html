@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+  <title>test2</title>
+  <link rel="stylesheet" href="css/test2.css">
+</head>
+<body>
+  <div class="sample">
+    <div class="parent">
+      親要素のテキスト
+      <div class="child">
+        子要素のテキスト
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="box-shadow">
+      boxの外側にシャドウ
+    </div>
+    <div class="box-shadow2">
+      boxの内側にシャドウ
+    </div>
+    <div class="box-shadow3">
+      両方
+    </div>
+  </div>
+  <div>
+    マージンの相殺
+    <div class="box"></div>
+    <div class="box"></div>
+    マージン値が異なるマージンの相殺
+    <div class="box"></div>
+    <div class="box-large"></div>
+    入れ子になったマージンの相殺
+    入れ子になった要素の上下のマージンは相殺される
+    <div class="parent">
+      <div class="child"></div>
+    </div>
+    でも、親要素を子要素のマージンを分けれるような
+    border,padding,インラインコンテンツなどが存在する場合には相殺されない
+    <div class="parent2">
+      <div class="child"></div>
+    </div>
+    文字間を調節
+    <div class="font">文字間を調節(こっちが1pxずつ文字間を開けている)</div>
+    角丸のcss(8pxの角丸)
+    <div class="kadomaru"></div>
+  </div>
+</body>
+</html>
