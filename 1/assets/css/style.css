@@ -1,0 +1,244 @@
+body{
+    font-family: 'Noto Serif JP', serif;
+    /* max-width: 100vw; */
+    /* max-height: 100vw; */
+}
+
+/* .top{
+    background: url(../img/fv.png) center center no-repeat;
+    background-size: 100%;
+    /* position: relative; */
+    /* z-index: 0; */
+    /* top: -107px;
+} */
+
+
+/* ----------------------------
+
+        firstview
+
+----------------------------- */
+
+.top{
+    height: 0;
+    padding-top: 57.36%;
+    background-image: url("../img/fv.png");
+    background-repeat: no-repeat ;
+    background-position :center center;
+    background-size: cover;
+    margin: 0;
+    /* position: relative; */
+ }
+
+.header{
+    /* position: relative; */
+    /* padding: 30px; */
+    /* z-index: 5; */
+    height: 30px;
+    top: -30%;
+    left: 50%;
+    /* -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%); */
+}
+
+.logo{
+    color: #b55a3d;
+    size: 24px;
+    /* z-index: 5; */
+}
+
+.hero{
+    /* background: url(../img/fv.png) center center no-repeat;
+    background-size: 100%; */
+    /* position: relative;
+    z-index: 0; */
+    /* top: -107px; */
+
+    height: 30px;
+    top: 30%;
+    left: 50%;
+    /* -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%); */
+}
+
+.heromain{
+    padding: 0 30px;
+    /* padding-top: 285px; */
+}
+
+.catch{
+    color: #fff;
+    font-size: 32px;
+}
+
+
+/* ----------------------------
+
+        section
+
+----------------------------- */
+h1{
+    color: #b55a3d;
+    font-size: 56px;
+    line-height: 70px;
+    padding-top: 10px;
+}
+
+.button{
+    color: #6f6865;
+    margin-top: 110px;
+    width: 235px;
+    height: 68px;
+    background: black;
+    padding-top:auto;
+    padding-bottom: auto;
+    background: rgba(0,0,0,0.0);
+    border: solid 1px #a8a3a3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+p{
+    opacity: 1;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.code.icon:after {
+  content: '';
+  position: absolute;
+  left: 235px;
+  width: 8px;
+  height: 8px;
+  margin-top: 30px;
+  border-bottom: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+
+}
+
+.plan{
+    margin-top: 45px;
+}
+
+.section1{
+    height: 700px;
+    background-color: #000;
+    color: #6f6865;
+}
+
+h2{
+    color: #6f6865;
+    font-size: 56px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.section1Content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service1,
+.service2{
+    background: rgba(0,0,0,0.0);
+    border: solid 1px #a8a3a3;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    padding: 30px;
+}
+
+.serviceTitle{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.service{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    margin-top: 30px;
+    border-bottom: solid 1px currentColor;
+    border-right: solid 1px currentColor;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+
+.serviceText{
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.serviceText2{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.sectionbtn{
+    margin: 30px;
+}
+
+.section2{
+    height: 700px;
+    background-color: #313131;
+    color: #6f6865;
+}
+
+.section2Cover{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.planTitle{
+    font-size: 40px;
+    color: #b55a3d;
+}
+
+
+
+.section2Plan{
+    background: rgba(0,0,0,0.0);
+    border: solid 1px #a8a3a3;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    padding: 30px;
+}
+
+.plan1Text{
+    font-size: 16px;
+}
+
+.plan1Text2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.planButton{
+    color: #6f6865;
+    margin-top: 10px;
+    width: 235px;
+    height: 68px;
+    background: black;
+    padding-top:auto;
+    padding-bottom: auto;
+    background: rgba(0,0,0,0.0);
+    border: solid 1px #a8a3a3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.article{
+    background: url(../img/contact.png) center center no-repeat;
+    background-size: 100%;
+}
+
+.footer{
+    background-color: #2b3034;
+}
