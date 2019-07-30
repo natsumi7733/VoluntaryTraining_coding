@@ -80,6 +80,27 @@ a:link, a:visited, a:hover, a:active{
   color: #fff;
 }
 
+.wrapper{
+  width: 970px;
+  margin: 30px auto 40px;
+}
+
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.main{
+  display: block;
+  float: left;
+  width: 660px;
+}
+
+.main, .sidemenu{
+  height: 500px;
+}
+
 .hidden{
   display: none;
 }
@@ -212,25 +233,18 @@ NEWS
   font-size: 1.2rem;
 }
 
-.wrapper{
-  width: 970px;
-  margin: 30px auto 40px;
+.article-box{
+  display: block;
+  width: 315px;
+  margin-bottom: 30px;
 }
 
-.clearfix::after{
-  content: '';
-  display: block;
-  clear: both;
-}
-
-.main{
-  display: block;
+.article-box:nth-of-type(odd){
   float: left;
-  width: 660px;
 }
 
-.main, .sidemenu{
-  height: 500px;
+.article-box:nth-of-type(even){
+  float: right;
 }
 
 .sidemenu{
